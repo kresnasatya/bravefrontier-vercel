@@ -1,8 +1,6 @@
-const fetch = require('node-fetch');
+const ENDPOINT = 'https://raw.githubusercontent.com/kresnasatya/bfwiki-data/main/data/omniunits/raw.json';
 
-const ENDPOINT = 'https://raw.githubusercontent.com/satyakresna/xbravefrontier/main/data/omniunits/raw.json';
-
-module.exports = async (req, res) => {
+export default async (req, res) => {
     let name = req.query.name;
     let element = req.query.element;
     let keywords = req.query.keywords;
