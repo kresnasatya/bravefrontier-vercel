@@ -4,6 +4,8 @@ import { getOmniUnitKeywords } from "../utils/keywords.js";
 import setActiveMenu from "../utils/setActiveMenu.js";
 import setOgMeta from "../utils/setOgMeta.js";
 import { requestOmniUnits } from "../utils/request.js";
+import Choices from 'choices.js/public/assets/scripts/choices.js';
+import 'choices.js/public/assets/styles/choices.min.css';
 
 let searchOmniUnitKeywordsEl;
 export default function (ctx) {
@@ -20,6 +22,7 @@ export default function (ctx) {
   searchOmniUnitKeywordsEl = new Choices(document.getElementById('searchOmniUnitKeywords'), {
     items: getOmniUnitKeywords(),
     choices: getOmniUnitKeywords(),
+    allowHTML: true,
     removeItemButton: true,
     maxItemCount: 3,
     maxItemText: (maxItemCount) => {
