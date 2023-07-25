@@ -1,4 +1,4 @@
-const ENDPOINT = 'https://raw.githubusercontent.com/kresnasatya/bfwiki-data/main/data/omniunits/raw.json';
+const ENDPOINT = 'https://raw.githubusercontent.com/kresnasatya/bravefrontier-data/main/data/omniunits/raw.json';
 
 export default async (req, res) => {
     let response = await fetch(ENDPOINT);

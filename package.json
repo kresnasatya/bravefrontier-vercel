@@ -1,5 +1,5 @@
 {
-  "name": "bfwiki-vercel",
+  "name": "bravefrontier-vercel",
   "version": "1.0.1",
   "type": "module",
   "description": "",
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kresnasatya/bfwiki-vercel.git"
+    "url": "git+https://github.com/kresnasatya/bravefrontier-vercel.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kresnasatya/bfwiki-vercelr/issues"
+    "url": "https://github.com/kresnasatya/bravefrontier-vercel/issues"
   },
-  "homepage": "https://github.com/kresnasatya/bfwiki-vercelr#readme",
+  "homepage": "https://github.com/kresnasatya/bravefrontier-vercelr#readme",
   "engines": {
     "node": "18"
   },

@@ -1,4 +1,4 @@
-const ENDPOINT = 'https://raw.githubusercontent.com/kresnasatya/bfwiki-data/main/data/dbbs/raw.json';
+const ENDPOINT = 'https://raw.githubusercontent.com/kresnasatya/bravefrontier-data/main/data/dbbs/raw.json';
 
 export default async (req, res) => {
     let esname = req.query.esname;
