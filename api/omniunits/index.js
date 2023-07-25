@@ -57,6 +57,8 @@ export default async (req, res) => {
         delete omniUnit.enhancements;
     }
 
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Cache-Control', 'public, s-maxage=60, stale-while-revalidate');
     res.status(200).send(result);
 }
 

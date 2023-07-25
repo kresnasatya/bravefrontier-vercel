@@ -18,5 +18,7 @@ export default async (req, res) => {
         ? selectedUnit 
         : { message : `Unit ${name} not found` };
 
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Cache-Control', 'public, s-maxage=60, stale-while-revalidate');
     res.status(statusCode).send(result);
 }
