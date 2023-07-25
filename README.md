@@ -1,7 +1,7 @@
 # Brave Frontier Wiki Unofficial
 
 Brave Frontier Wiki Unofficial for Omniunits and Dual Brave Burst (DBB)s hosted in Vercel.
-Site URL: https://bfwiki.vercel.app
+Site URL: https://bravefrontier.vercel.app
 
 ## Features
 
@@ -16,13 +16,13 @@ Site URL: https://bfwiki.vercel.app
 
 ### List of Omni Units
 
-To get list of omni units please go to: https://bfwiki.vercel.app/api/omniunits. You can also get specific list of omni units by param search like `name` and `element`.
+To get list of omni units please go to: https://bravefrontier.vercel.app/api/omniunits. You can also get specific list of omni units by param search like `name` and `element`.
 
 Example:
 
-1. By `name` https://bfwiki.vercel.app/api/omniunits?name=war
-2. By `element` https://bfwiki.vercel.app/api/omniunits?element=fire
-3. By `name` and `element` https://bfwiki.vercel.app/api/omniunits?name=sun&element=fire
+1. By `name` https://bravefrontier.vercel.app/api/omniunits?name=war
+2. By `element` https://bravefrontier.vercel.app/api/omniunits?element=fire
+3. By `name` and `element` https://bravefrontier.vercel.app/api/omniunits?name=sun&element=fire
 
 
 ## Detail of Omni Unit
@@ -31,9 +31,9 @@ To get detail of omni unit, you should use `name` of omni unit as path and if sp
 
 Here's is example:
 
-1. Ignis Halcyon Vargas = https://bfwiki.vercel.app/api/omniunits/Ignis_Halcyon_Vargas
-2. Fearless Tate & Tama = https://bfwiki.vercel.app/api/omniunits/Fearless_Tate_&_Tama
-3. Kranus, the Argen = https://bfwiki.vercel.app/api/omniunits/Kranus,_the_Argent
+1. Ignis Halcyon Vargas = https://bravefrontier.vercel.app/api/omniunits/Ignis_Halcyon_Vargas
+2. Fearless Tate & Tama = https://bravefrontier.vercel.app/api/omniunits/Fearless_Tate_&_Tama
+3. Kranus, the Argen = https://bravefrontier.vercel.app/api/omniunits/Kranus,_the_Argent
 
 ## Technology
 
@@ -43,8 +43,7 @@ This project design with monorepo powered by Vercel. Frontend based on Single Pa
 
 > This project require [Vercel CLI](https://vercel.com/cli) so so please make sure you install it!
 
-**Note: this project requires Node JS version at least 16 or more.**
+**Note: this project requires Node JS version 18**
 - Clone this project
-- Install dependencies with `npm install`
+- Install dependencies with `pnpm install`
 - Run `vercel dev`
-- Run `npm run watch:css` and `npm run watch:js`
